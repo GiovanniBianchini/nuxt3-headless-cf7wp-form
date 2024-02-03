@@ -59,7 +59,7 @@ Next, within the **postToForm** function the binding for each value to be sent t
 
 After that, each field should be binded according to the variables defined above. Basically the acceptance binding should be left as is.
 
-Finally, for the part of the code inside the **<template>** tag, the v-model binding will have to be defined to update the values of the variables linked to the form fields. Error and successful form submit messages can also be customized here.
+Finally, for the part of the code inside the **template** tag, the v-model binding will have to be defined to update the values of the variables linked to the form fields. Error and successful form submit messages can also be customized here.
 
 
 You can use the provided example to better understand the process.
