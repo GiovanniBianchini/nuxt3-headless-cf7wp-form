@@ -64,6 +64,7 @@ const postToForm = async () => {
         formData.append("your-email", email.value);
         formData.append("your-message", message.value);
         formData.append("your-acceptance", acceptance.value ? 'Accepted privacy policy' : 'Privacy policy not accepted');
+        formData.append("_wpcf7_unit_tag", '1');
 
         const response = await fetch(formEndpoint, {
             method: 'POST',

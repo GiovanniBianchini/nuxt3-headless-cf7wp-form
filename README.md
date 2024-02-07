@@ -57,7 +57,7 @@ After that, the form **frontend variables** should be defined and called with th
 
 Next, within the **postToForm** function the binding for each value to be sent to Wordpress should be defined. Specifically your-subject, unless it is to be dynamic, can be left that way because it will return an email subject such as: [Your project name] - Message from [user email].
 
-After that, each field should be binded according to the variables defined above. Basically the acceptance binding should be left as is.
+After that, each field should be binded according to the variables defined above. Basically the acceptance binding should be left as is. The last step is to set the _wpcf7_unit_tag ans is setted already with a value.
 
 Finally, for the part of the code inside the **template** tag, the v-model binding will have to be defined to update the values of the variables linked to the form fields. Error and successful form submit messages can also be customized here.
 
