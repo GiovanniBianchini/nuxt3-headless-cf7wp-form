@@ -111,7 +111,7 @@ const postToForm = async () => {
         <input class="project-button" type="submit" value="Send message">
         <div>
             <p v-if="errorMessage">There was an error submitting the form, please try later or <a
-                    href="mailto:giovannibianchini6@gmail.com">contact me</a>!</p>
+                    href="mailto:your_email">contact me</a>!</p>
             <p v-if="submittedForm">Thanks for your message, I'll contact you back soon!</p>
         </div>
     </form>
